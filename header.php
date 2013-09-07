@@ -5,6 +5,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--[endif]-->
 <head>
 	<title><?php echo get_bloginfo('name'); ?></title>
+
+	<?php wp_head(); ?>
 </head>
 <body>
 

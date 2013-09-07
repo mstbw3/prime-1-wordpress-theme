@@ -1,0 +1,16 @@
+/*///////////////////////////////////////////////////////
+			 General Mixins and Variables
+
+					Color Pallete
+   http://www.colourlovers.com/palette/3175/japantech
+///////////////////////////////////////////////////////*/
+
+@mixin prime-mx($width) {
+	@if $prime-no-mq-support {
+		@content;
+  	} @else {
+   		@media ( 'min-width:' + $width ) {
+    	  @content;
+   		}
+	}
+}
