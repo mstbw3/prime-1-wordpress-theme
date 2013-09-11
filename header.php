@@ -9,4 +9,8 @@
 	<?php wp_head(); ?>
 </head>
 <body>
+	<header class="master-header">
+		<a href="<?php bloginfo('url') ?>"><img class="master-header-logo" src="<?php bloginfo('stylesheet_directory') ?>/images/prime-1-logo.png"></a>
+		
+	</header>
 
