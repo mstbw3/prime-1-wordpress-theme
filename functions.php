@@ -1,6 +1,6 @@
 <?php
 
-init();
+prime1_init();
 
 function prime1_register_styles () {
 	wp_enqueue_style( "main-styles", get_template_directory_uri() . '/css/mq.css', 'false', 1 );

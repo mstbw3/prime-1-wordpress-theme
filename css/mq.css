@@ -414,12 +414,18 @@ table {
   border-spacing: 0;
 }
 
+/* line 1, ../scss/_elements.scss */
+body {
+  background: #0076A3;
+}
+
 /* line 1, ../scss/_header.scss */
 .master-header {
   padding: 1em 0;
+  background: #ffffff;
 }
 
-/* line 6, ../scss/_header.scss */
+/* line 7, ../scss/_header.scss */
 .master-header-logo {
   max-width: 150px;
   display: block;
