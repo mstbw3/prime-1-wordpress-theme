@@ -11,6 +11,6 @@
 <body>
 	<header class="master-header">
 		<a href="<?php bloginfo('url') ?>"><img class="master-header-logo" title="Prime 1 Computer Services" src="<?php bloginfo('stylesheet_directory') ?>/images/prime-1-logo.png"></a>
-		<nav><?php wp_nav_menu( array( 'theme_location' => 'main-menu') ); ?></nav>
+		<nav class="master-navigation"><?php wp_nav_menu( array( 'theme_location' => 'main-menu') ); ?></nav>
 	</header>
 
